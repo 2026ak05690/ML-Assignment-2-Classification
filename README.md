@@ -48,7 +48,7 @@ The dataset contains measurements of cell nuclei obtained from digitized images 
 | Malignant | 212 |
 | **Total** | **569** |
 
-**Dataset Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+**Dataset Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/)
 
 The dataset is loaded using the Scikit-learn dataset utility.
 
@@ -127,7 +127,7 @@ The following table shows the actual results obtained after executing the traini
 | Decision Tree | 0.9298 | 0.9246 | 0.9048 | 0.9048 | 0.9048 | 0.8492 |
 | KNN | 0.9561 | 0.9823 | 0.9744 | 0.9048 | 0.9383 | 0.9058 |
 | Naive Bayes | 0.9386 | 0.9934 | 1.0000 | 0.8333 | 0.9091 | 0.8715 |
-| **Support Vector Machine** | **0.9737** | **0.9947** | **1.0000** | **0.9286** | **0.9630** | **0.9442** |
+| Support Vector Machine | **0.9737** | 0.9947 | **1.0000** | 0.9286 | **0.9630** | **0.9442** |
 
 ## 9. Observations
 
@@ -178,6 +178,10 @@ ML-Assignment-2-Classification/
 │   └── support_vector_machine.pkl
 │
 ├── plots/
+│   ├── class_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── feature_distribution.png
+│   └── mean_radius_boxplot.png
 │
 ├── app.py
 ├── prepare_dataset.py
@@ -193,7 +197,7 @@ ML-Assignment-2-Classification/
 
 ### Prerequisites
 
-- Python 3.10 or a compatible version
+- Python 3.11 or newer
 - pip
 - Git
 
